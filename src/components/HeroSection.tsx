@@ -119,11 +119,11 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="content">
           <div className="desc">
-            <div className="title">Image Colorizer</div>
+            <div className="title">Flower's Image Colorizer</div>
             <div className="sub_title">
-              Our AI based image colorizer helps you to colorize black and white
-              images, automatically using auto encoder. Add realistic colors to
-              your black and white photographs
+              Our AI based image colorizer helps you to colorize any black and
+              white images of flowers, automatically using auto encoder. Add
+              realistic colors to your black and white photographs of flowers.
             </div>
           </div>
           <input
