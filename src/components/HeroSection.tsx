@@ -83,12 +83,13 @@ const HeroSection: React.FC = () => {
         });
         setChangeAlert((prev) => !prev);
       }
-    } catch {
+    } catch (e) {
       setLoading(false);
       setAlert({
         type: "error",
         message: "failed to connect to servers",
       });
+      setChangeAlert((prev) => !prev);
     }
   };
 
