@@ -146,9 +146,8 @@ const HeroSection: React.FC = () => {
             <div className="displayContainer">
               <div className="display">
                 <img
+                  className="display-image"
                   src={URL.createObjectURL(selectedImage)}
-                  width={256}
-                  height={256}
                 />
                 <div className="change-image" onClick={onUploadClick}>
                   Change Image
@@ -164,9 +163,8 @@ const HeroSection: React.FC = () => {
               {resultb64Image !== null && (
                 <div className="outputDisplay">
                   <img
+                    className="display-image"
                     src={`data:image/png;base64,${resultb64Image}`}
-                    width={256}
-                    height={256}
                   />
                 </div>
               )}
