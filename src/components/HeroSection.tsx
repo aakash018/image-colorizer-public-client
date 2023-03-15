@@ -176,9 +176,11 @@ const HeroSection: React.FC = () => {
                 Learn More
               </a>
             </div>
-            <div className="arrow-logo">
-              <MdKeyboardArrowDown size={"3rem"} />{" "}
-            </div>
+            <a href="#learn-more" style={{ textDecoration: "none" }}>
+              <div className="arrow-logo">
+                <MdKeyboardArrowDown size={"3rem"} />{" "}
+              </div>
+            </a>
           </div>
         </div>
       </div>
