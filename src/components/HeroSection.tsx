@@ -107,7 +107,7 @@ const HeroSection: React.FC = () => {
       )}
       <div className="heroSectionContainer">
         <div className="header">
-          <div className="team_logo">TEAM NAME</div>
+          <div className="team_logo"></div>
           <div className="github">
             <a
               href="https://github.com/AavashGyawali/image-Colorization"
@@ -171,7 +171,11 @@ const HeroSection: React.FC = () => {
             </div>
           )}
           <div className="learn-more">
-            <div className="text">Learn More</div>
+            <div className="text">
+              <a href="#learn-more" style={{ textDecoration: "none" }}>
+                Learn More
+              </a>
+            </div>
             <div className="arrow-logo">
               <MdKeyboardArrowDown size={"3rem"} />{" "}
             </div>

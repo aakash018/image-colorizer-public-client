@@ -8,6 +8,10 @@
   color: #343434;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   font-size: 62.5%;
 
@@ -29,4 +33,27 @@ button {
 
 button:hover {
   background-color: black;
+}
+
+footer {
+  background-color: #343434;
+  padding: 20px 100px;
+  line-height: 25px;
+}
+
+footer > * {
+  color: white;
+  font-size: 1.8rem;
+}
+
+footer ul li {
+  color: aliceblue;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 20px 50px;
+  }
 }
